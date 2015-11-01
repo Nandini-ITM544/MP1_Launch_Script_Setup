@@ -12,4 +12,4 @@ aws autoscaling create-auto-scaling-group --auto-scaling-group-name Project1-aut
 aws autoscaling put-scaling-policy --auto-scaling-group-name Project1-auto-scaling-group-2 --policy-name scalingpolicytest --scaling-adjustment 1 --adjustment-type ExactCapacity
 
 aws rds create-db-instance --db-name Project1db --db-instance-identifier Project1db --db-instance-class db.t2.micro --engine MySql --allocated-storage 20 --master-username nandini --master-user-password nandinipwd
-#aws rds create-db-instance-read-replica --db-instance-identifier Project1readonly --source-db-instance-identifier Project1db --db-instance-class db.t2.micro 
+aws rds create-db-instance-read-replica --db-instance-identifier Project1readonly --source-db-instance-identifier Project1db --db-instance-class db.t2.micro 
