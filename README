@@ -1,0 +1,5 @@
+Procedure to execute :
+
+1.Once the Launch.sh is executed , the Master DB is created.Once the Master Db is created the setup.php from the Application Repository has to be executed.
+2.In order to create the Read Replica the Launch.sh has to be exectuted again.
+
